@@ -1,0 +1,267 @@
+/***********************************************************************/
+/*    BELLOW 1344px (Smaller desktops)     */
+/***********************************************************************/
+@media (max-width: 84em) {
+  /*---------------------------------------*/
+  /*    REUSABLE COMPONENTS     */
+  /*---------------------------------------*/
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+}
+/***********************************************************************/
+/*    BELLOW 1200px (Landscape Tablets)     */
+/***********************************************************************/
+@media (max-width: 75em) {
+  /*---------------------------------------*/
+  /*    GLOBAL STYLES    */
+  /*---------------------------------------*/
+  html {
+    /* 
+    Smaller font-size: 9px = 56.25%
+    9px / 16px = 0.5625 = 56.25%
+  */
+    font-size: 56.25%;
+  }
+
+  /*---------------------------------------*/
+  /*    REUSABLE COMPONENTS     */
+  /*---------------------------------------*/
+  .grid {
+    row-gap: 6.4rem;
+    column-gap: 4.8rem;
+  }
+
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+
+  .heading-tertiary {
+    font-size: 2.4rem;
+  }
+
+  .header {
+    padding: 0 3.2rem;
+  }
+
+  /*---------------------------------------*/
+  /*    NAVIGATION     */
+  /*---------------------------------------*/
+  .main-nav-list {
+    gap: 3.2rem;
+  }
+
+  /*---------------------------------------*/
+  /*    CALL TO ACTION (CTA) SECTION     */
+  /*---------------------------------------*/
+  .cta {
+    grid-template-columns: 1fr 3fr;
+  }
+
+  /*---------------------------------------*/
+  /*    CTA SECTION     */
+  /*---------------------------------------*/
+  .cta-heading {
+    font-size: 2.4rem;
+  }
+
+  .cta-list-link {
+    font-size: 1.6rem;
+  }
+}
+
+/***********************************************************************/
+/*    BELLOW 944px (Tablets)     */
+/***********************************************************************/
+@media (max-width: 59em) {
+  /*---------------------------------------*/
+  /*    GLOBAL STYLES    */
+  /*---------------------------------------*/
+  html {
+    font-size: 50%;
+  }
+
+  /*---------------------------------------*/
+  /*    CALL TO ACTION (CTA) SECTION     */
+  /*---------------------------------------*/
+  .cta {
+    grid-template-columns: 2fr 3fr;
+  }
+
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-form .btn {
+    margin-top: 1.2rem;
+  }
+
+  /*---------------------------------------*/
+  /*    FEATURES SECTION     */
+  /*---------------------------------------*/
+  .features-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3.2rem;
+  }
+
+  /*---------------------------------------*/
+  /*    MOBILE NAVIGATION     */
+  /*---------------------------------------*/
+  .btn-mobile-nav {
+    display: block;
+    z-index: 9999;
+  }
+
+  .main-nav {
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+
+    /* Hide navigation */
+    /* display: none; <-- Allows NO transitions at all */
+
+    /* 1) Hide it visually */
+    opacity: 0;
+
+    /* 2) Make it unaccessible to mouse & keyboard */
+    pointer-events: none;
+
+    /* 3) Hide it from screen readers */
+    visibility: hidden;
+  }
+
+  .main-nav-list {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 3rem;
+  }
+}
+
+/***********************************************************************/
+/*    BELLOW 704px (Smaller Tablets)     */
+/***********************************************************************/
+@media (max-width: 44em) {
+  /*---------------------------------------*/
+  /*    REUSABLE COMPONENTS     */
+  /*---------------------------------------*/
+  .grid--3-cols,
+  .grid--4-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .heading-secondary {
+    margin-bottom: 4.8rem;
+  }
+
+  /*---------------------------------------*/
+  /*    HOW IT WORKS SECTION   */
+  /*---------------------------------------*/
+  .grid-how {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    row-gap: 6rem;
+  }
+
+  .how-img {
+    width: 35%;
+  }
+
+  .how-heading,
+  .how-text {
+    text-align: center;
+  }
+
+  .how-heading {
+    margin-top: 1rem;
+    margin-bottom: 1.8rem;
+  }
+
+  .how-text {
+    font-size: 1.6rem;
+    margin-bottom: 2.4rem;
+  }
+}
+
+/***********************************************************************/
+/*    BELLOW 544px (Phones)     */
+/***********************************************************************/
+@media (max-width: 34em) {
+  /*---------------------------------------*/
+  /*    REUSABLE COMPONENTS     */
+  /*---------------------------------------*/
+  .heading-primary {
+    font-size: 3rem;
+  }
+
+  .grid {
+    row-gap: 4.8rem;
+  }
+
+  .grid--2-cols,
+  .grid--3-cols,
+  .grid--4-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .btn,
+  .btn:link,
+  .btn:visited {
+    padding: 2.4rem 1.6rem;
+  }
+
+  /*---------------------------------------*/
+  /*    HERO SECTION     */
+  /*---------------------------------------*/
+  .hero-text {
+    font-size: 1.4rem;
+  }
+
+  /*---------------------------------------*/
+  /*    FEATURES SECTION     */
+  /*---------------------------------------*/
+  .features-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3.2rem;
+  }
+
+  /*---------------------------------------*/
+  /*    CALL TO ACTION (CTA) SECTION     */
+  /*---------------------------------------*/
+  .cta {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-text-box {
+    padding: 3.2rem;
+  }
+
+  .cta-additional {
+    padding-bottom: 0;
+  }
+
+  .cta-list-box {
+    padding: 4rem 3rem;
+  }
+
+  .cta-text-box {
+    padding-top: 1.2rem;
+  }
+}
