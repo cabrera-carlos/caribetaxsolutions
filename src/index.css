@@ -432,3 +432,7 @@ html {
 .hidden {
   display: none;
 }
+
+#comment {
+  resize: none;
+}
