@@ -75,7 +75,7 @@ export default function Contact() {
         <div className="cta">
           <div className="cta-additional">
             <div>
-              <p className="cta-heading text-center">Contáctanos hoy</p>
+              <p className="cta-heading text-center">Contáctanos hoy.</p>
               <div className="cta-list-box">
                 <ul className="cta-list">
                   <li className="cta-list-item">

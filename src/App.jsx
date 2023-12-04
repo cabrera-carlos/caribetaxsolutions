@@ -13,11 +13,11 @@ function App() {
         <Hero>
           <Navigation />
         </Hero>
-        <Certifications />
         <HowItWorks />
         <Services />
         <Features />
         <Contact />
+        <Certifications />
       </main>
       <Footer />
     </>
