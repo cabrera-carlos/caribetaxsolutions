@@ -221,6 +221,16 @@ html {
 
 .logo {
   height: 2.4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.logo-img {
+  width: 31rem;
+  padding: 0.2rem;
+  margin-top: 3rem;
 }
 
 .main-nav-list {

@@ -1,11 +1,9 @@
 export default function Navigation() {
   return (
     <header className="header-nav container">
-      <img
-        className="logo"
-        src="/omnifood-logo.png"
-        alt="Caribe Tax Solutions logo"
-      />
+      <div className="logo">
+        <img className="logo-img" src="/logo.png" alt="Caribe Tax Solutions logo" />
+      </div>
       <nav className="main-nav">
         <ul className="main-nav-list">
           <li>
