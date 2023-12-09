@@ -1,9 +1,7 @@
 export default function Navigation() {
   return (
     <header className="header-nav container">
-      <div className="logo">
-        <img className="logo-img" src="/logo.png" alt="Caribe Tax Solutions logo" />
-      </div>
+      <img className="logo" src="/logo.png" alt="Caribe Tax Solutions logo" />
       <nav className="main-nav">
         <ul className="main-nav-list">
           <li>
