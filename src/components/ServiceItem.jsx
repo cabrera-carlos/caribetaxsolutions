@@ -18,6 +18,9 @@ export default function ServiceItem({ service, selected, setSelected }) {
       </div>
       <div className="hidden-box">
         <div>
+          {service.description && (
+            <p className="service-description">{service.description}</p>
+          )}
           <ul className="list service-list">
             {service.items.map((item) => {
               return (
