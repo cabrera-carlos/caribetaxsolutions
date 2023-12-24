@@ -11,8 +11,7 @@ export default function Hero({ children }) {
           </h1>
           <div className="hero-text-wrapper">
             <p className="hero-text">
-              Ayudando a la comunidad hispana a superar las barreras de los
-              trámites, formularios e impuestos.
+              Ayudando a la comunidad hispana a superar la barrera del idioma.
             </p>
           </div>
           <a href="#section-cta" className="btn btn--primary">

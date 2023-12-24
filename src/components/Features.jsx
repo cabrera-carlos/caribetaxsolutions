@@ -3,6 +3,8 @@ import {
   FaLanguage,
   FaPiggyBank,
   FaRegThumbsUp,
+  FaMousePointer,
+  FaLock,
 } from "react-icons/fa";
 
 export default function Features() {
@@ -13,15 +15,14 @@ export default function Features() {
           <FaStoreAlt className="feature-icon" />
           <p className="feature-title">Negocio de familia</p>
           <p className="feature-text">
-            Disfruta de un ambiente acogedor y un servicio personalizado a tus
-            necesidades.
+            Ambiente acogedor y servicio personalizado a sus necesidades.
           </p>
         </div>
         <div className="feature">
           <FaLanguage className="feature-icon" />
           <p className="feature-title">Servicio en Español</p>
           <p className="feature-text">
-            Comunícate con nosotros en Español o Inglés.
+            Comuníquese con nosotros en Español o Inglés.
           </p>
         </div>
         <div className="feature">
@@ -36,6 +37,20 @@ export default function Features() {
           <p className="feature-title">Calidad garantizada</p>
           <p className="feature-text">
             Prometemos trabajar con usted para garantizar su satisfacción.
+          </p>
+        </div>
+        <div className="feature">
+          <FaMousePointer className="feature-icon" />
+          <p className="feature-title">100% Online</p>
+          <p className="feature-text">
+            Complete sus trámites desde la comodidad de su hogar.
+          </p>
+        </div>
+        <div className="feature">
+          <FaLock className="feature-icon" />
+          <p className="feature-title">Privado y seguro</p>
+          <p className="feature-text">
+            Usamos métodos seguros para intercambiar documentos.
           </p>
         </div>
       </div>
