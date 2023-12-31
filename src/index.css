@@ -216,9 +216,8 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  align-items: flex-start;
   padding: 2.4rem;
-  
+  margin: -1.1rem 0 0 0.3rem; /* Added */
 }
 
 .logo {
@@ -227,6 +226,7 @@ html {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  margin: 0.1rem 0 0 0.3rem;
 }
 
 .main-nav-list {
@@ -267,7 +267,7 @@ html {
 
 .hero-text-box {
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
