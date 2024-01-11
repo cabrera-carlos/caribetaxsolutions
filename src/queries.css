@@ -108,6 +108,12 @@
   /*---------------------------------------*/
   /*    MOBILE NAVIGATION     */
   /*---------------------------------------*/
+  @media (max-width: 600px) {
+    .desktop-logo {
+      display: none;
+    }
+  }
+  
   .btn-mobile-nav {
     display: block;
     z-index: 9999;
@@ -127,7 +133,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.5s ease-in;
+    transition: transform 0.5s ease-in;
 
     /* Hide navigation */
     /* display: none; <-- Allows NO transitions at all */

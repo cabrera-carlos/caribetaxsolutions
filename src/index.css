@@ -242,16 +242,23 @@ html {
   justify-content: space-between;
   align-items: center;
   padding: 2.4rem;
+  margin: -1.1rem 0 0 0.3rem; /* Added */
 }
 
 .logo {
-  height: 2.4rem;
+  height: 6.4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0.1rem 0 0 0.3rem;
 }
 
 .main-nav-list {
   list-style: none;
   display: flex;
   gap: 2rem;
+
 }
 
 .main-nav-link:link,
@@ -285,7 +292,7 @@ html {
 
 .hero-text-box {
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
