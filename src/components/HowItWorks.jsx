@@ -3,7 +3,7 @@ export default function HowItWorks() {
     <section className="section-how" id="section-how">
       <div className="container--sm">
         <h3 className="heading-secondary">3 Simples Pasos</h3>
-        <span class="subheading">Como funciona</span>
+        {/* <span class="subheading">Como funciona</span> */}
         <div className="grid-how">
           <div className="how-img-box">
             <p className="how-step">1</p>

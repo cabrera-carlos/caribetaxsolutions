@@ -15,7 +15,7 @@ export const services = [
       "Certificación de Divorcio.",
       "Certificación de Defuncion.",
       "Antecedentes Penales.",
-      "Certificacion de Notas",
+      "Certificación de Notas",
       "Diplomas",
     ],
   },

@@ -8,8 +8,8 @@ export default function Services() {
   return (
     <section className="section-services" id="section-services">
       <div className="container--sm">
-        <h3 className="heading-secondary">Podemos ayudarte</h3>
-        <span class="subheading">Servicios</span>
+        <h2 className="heading-secondary">Podemos ayudarte</h2>
+        {/* <span class="subheading">Servicios</span> */}
         <div className="services">
           {services.map((service) => {
             return (
