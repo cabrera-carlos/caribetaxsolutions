@@ -32,7 +32,7 @@ export default function RequisitosExamenMedico() {
                   </li>
                   <li className="list-item">
                     <HiCheck className="article-list-icon" />
-                    <span>COVID-19.</span>
+                    <span>COVID-19</span>
                   </li>
                   <li className="list-item">
                     <HiCheck className="article-list-icon" />

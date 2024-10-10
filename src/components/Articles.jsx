@@ -18,9 +18,8 @@ export default function Services() {
                   </span>
                 </Link>
                 <p className="articles-text-v2">
-                  Detalles de las vacunas y ánalisis que usted necesita para
-                  complir con todos los requisitos de USCIS para su examen
-                  médico.
+                  Listado de vacunas y ánalisis requeridos por USCIS para su
+                  examen médico.
                 </p>
               </li>
               <li className="articles-list-item" key="medicos-civiless">

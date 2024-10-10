@@ -21,8 +21,8 @@ export default function MedicosCiviles() {
           </span>
 
           <p className="articles-text">
-            El exámen medico solicitado por USCIS debe ser llevado a cabo por un
-            médico autorizado. A continuación está un listado de los Médicos
+            El exámen médico solicitado por USCIS debe ser llevado a cabo por un
+            doctor autorizado. A continuación está un listado de los Médicos
             Civiles más cercanos del area del centro de New York.
           </p>
 
@@ -35,6 +35,15 @@ export default function MedicosCiviles() {
             United States <br />
             Dr. Andrea Shaw <br />
             844-964-1200 <br />
+          </p>
+          <p className="articles-address">
+            <strong>Robert K. Chruscicki, MD</strong>
+            <br />
+            288 Genesee Street <br />
+            Utica, NY 13502 <br />
+            United States <br />
+            Dr. Robert Chruscicki <br />
+            315-724-7744 <br />
           </p>
           <p className="articles-address">
             <strong>Dr. Michael S Niziol</strong>
@@ -69,7 +78,7 @@ export default function MedicosCiviles() {
           </p>
 
           <p className="articles-text">
-            Para encontrar Medicos Civiles cerca de Usted{" "}
+            Para encontrar Médicos Civiles cerca de Usted{" "}
             <a
               href="https://www.uscis.gov/es/herramientas/localice-un-medico-civil-designado"
               target="_blank"
@@ -77,7 +86,7 @@ export default function MedicosCiviles() {
             >
               de click aquí
             </a>{" "}
-            o escanee el codigo QR a continuacion:
+            o escanee el código QR a continuación:
           </p>
           <div className="articles-qrcode-box">
             <img

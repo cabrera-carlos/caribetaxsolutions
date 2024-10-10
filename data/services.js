@@ -10,11 +10,11 @@ export const services = [
     description:
       "Podemos traducir cualquier documento de Español a Inglés, o viceversa. Algunos ejemplos a continuación:",
     items: [
-      "Certificación de Nacimiento.",
-      "Certificación de Matrimonio.",
-      "Certificación de Divorcio.",
-      "Certificación de Defuncion.",
-      "Antecedentes Penales.",
+      "Certificación de Nacimiento",
+      "Certificación de Matrimonio",
+      "Certificación de Divorcio",
+      "Certificación de Defunción",
+      "Antecedentes Penales",
       "Certificación de Notas",
       "Diplomas",
     ],
