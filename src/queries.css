@@ -214,6 +214,10 @@
   .grid--checkbox {
     padding: 1rem;
   }
+
+  #checklist-img {
+    display: none;
+  }
 }
 
 /***********************************************************************/
@@ -257,7 +261,6 @@
   }
 
   .how-text {
-    font-size: 1.6rem;
     margin-bottom: 2.4rem;
   }
 }

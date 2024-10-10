@@ -11,7 +11,7 @@ export default function Services() {
           <h3 className="heading-secondary">Artículos publicados</h3>
           <div className="articles">
             <ul className="list articles-list">
-              <li className="articles-list-item" key="vacunas-requeridas">
+              <li className="articles-list-item" key="requisitos-examen-medico">
                 <Link to={"/articulos/requisitos-examen-medico"}>
                   <span class="subheading articles-subheading-v2">
                     Requisitos para el examen médico de USCIS (Adultos)
@@ -21,6 +21,17 @@ export default function Services() {
                   Detalles de las vacunas y ánalisis que usted necesita para
                   complir con todos los requisitos de USCIS para su examen
                   médico.
+                </p>
+              </li>
+              <li className="articles-list-item" key="medicos-civiless">
+                <Link to={"/articulos/medicos-civiles"}>
+                  <span class="subheading articles-subheading-v2">
+                    Médicos Civiles Designados Por USCIS
+                  </span>
+                </Link>
+                <p className="articles-text-v2">
+                  Detalles de los Doctores designados por USCIS para realizar su
+                  examen médico.
                 </p>
               </li>
             </ul>

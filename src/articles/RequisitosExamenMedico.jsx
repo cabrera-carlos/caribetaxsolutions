@@ -28,7 +28,7 @@ export default function RequisitosExamenMedico() {
                 <ol className="list articles-list-level2">
                   <li className="list-item">
                     <HiCheck className="article-list-icon" />
-                    <span>Tétano (Tdap).</span>
+                    <span>Tétano (Tdap)</span>
                   </li>
                   <li className="list-item">
                     <HiCheck className="article-list-icon" />
@@ -36,24 +36,24 @@ export default function RequisitosExamenMedico() {
                   </li>
                   <li className="list-item">
                     <HiCheck className="article-list-icon" />
-                    <span>Influenza (Octubre - Marzo).</span>
+                    <span>Influenza (Octubre - Marzo)</span>
                   </li>
                   <li className="list-item">
                     <HiCheck className="article-list-icon" />
                     <span>
                       MMR (Sarampión, paperas, rubeola) o análisis de sangre que
-                      demuestre inmunidad.
+                      demuestre inmunidad
                     </span>
                   </li>
                   <li className="list-item">
                     <HiCheck className="article-list-icon" />
                     <span>
-                      Varicela o análisis de sangre que demuestre inmunidad.
+                      Varicela o análisis de sangre que demuestre inmunidad
                     </span>
                   </li>
                   <li className="list-item">
                     <HiCheck className="article-list-icon" />
-                    <span>Pneumonía (> 65 años de edad).</span>
+                    <span>Pneumonía (> 65 años de edad)</span>
                   </li>
                   <li className="list-item">
                     <HiCheck className="article-list-icon" />
@@ -61,7 +61,7 @@ export default function RequisitosExamenMedico() {
                   </li>
                   <li className="list-item">
                     <HiCheck className="article-list-icon" />
-                    <span>Hepatitis B.</span>
+                    <span>Hepatitis B</span>
                   </li>
                 </ol>
               </li>
@@ -69,14 +69,15 @@ export default function RequisitosExamenMedico() {
             <img
               className="how-img"
               id="checklist-img"
-              src="../../public/checklist.svg"
+              src="/checklist.svg"
               alt="Contact us"
             />
           </div>
           <p className="articles-text">
             Las vacunas pueden ser administradas en cualquier farmacia local sin
-            necesidad de receta médica. La vacuna de la <strong>Polio</strong>{" "}
-            también la están administrando en una clínica en Cicero:
+            necesidad de receta médica. Si reside en el area de Central New
+            York, la vacuna de la <strong>Polio</strong> también la están
+            administrando en una clínica en Cicero:
           </p>
           <p className="articles-address">
             <strong>Drakos Urgent Care</strong>
@@ -85,12 +86,8 @@ export default function RequisitosExamenMedico() {
             Cicero, NY 13039 <br />
             United States <br />
             urgentcare.drakosdynamics.com <br />
+            Notas: Sacar cita en el sitio web. Llevar record de vacunación
           </p>
-          <p className="articles-text">Notas:</p> <br />
-          <ul>
-            <li>Sacar cita en el sitio web.</li>
-            <li>Llevar record de vacunación</li>
-          </ul>
           <ol className="articles-list articles-list-level1" start={2}>
             <li className="articles-list-item ">
               <span className="articles-list-item-level1">
@@ -142,53 +139,7 @@ export default function RequisitosExamenMedico() {
             Syracuse, NY 13202 <br />
             United States <br />
             315.435.3236 <br />
-          </p>
-          <p className="articles-notes">
-            Notas: <br />
-            <ul>
-              <li>Lunes a Viernes de 8:30 am - 3:30 pm</li>
-            </ul>
-          </p>
-          <p className="articles-text">
-            Una vez que tenga todas las vacunas o prueba de Inmunidad puede
-            solicitar la cita para realizar el chequeo médico requerido por
-            USCIS. A continuación están algunos de los doctores del área
-            autorizados a realizar el chequeo.
-          </p>
-          <p className="articles-address">
-            <strong>Center for International Health</strong>
-            <br />
-            725 E Adams Street Suite 4a Upstate <br />
-            Nappi Wellness Institute <br />
-            Syracuse, NY 13202 <br />
-            United States <br />
-            Dr. Andrea Shaw <br />
-            315.435.3236 <br />
-          </p>
-          <p className="articles-address">
-            <strong>Robert K. Chruscicki, MD</strong>
-            <br />
-            288 Genesee Street <br />
-            Utica, NY 13502 <br />
-            United States <br />
-            Dr. Robert Chruscicki <br />
-            315-724-7744 <br />
-          </p>
-          <p className="articles-address">
-            <strong>Slocum Dickson Medical Group</strong>
-            <br />
-            1729 Burrstone Road <br />
-            New Hartford, NY 13413
-            <br />
-            United States <br />
-            Dr. Mohsin Syed <br />
-            315.435.3236 <br />
-          </p>
-          <p className="articles-notes">
-            Notas: <br />
-            <ul>
-              <li>Lenguajes adicionales: Español, Urdu</li>
-            </ul>
+            Notas: Lunes a Viernes de 8:30 am - 3:30 pm
           </p>
         </div>
       </section>

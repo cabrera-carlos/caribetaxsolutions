@@ -6,6 +6,7 @@ import "./queries.css";
 import App from "./App.jsx";
 import Articles from "./components/Articles.jsx";
 import RequisitosExamenMedico from "./articles/RequisitosExamenMedico.jsx";
+import MedicosCiviles from "./articles/MedicosCiviles.jsx";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
   {
     path: "/articulos/requisitos-examen-medico",
     element: <RequisitosExamenMedico />,
+  },
+  {
+    path: "/articulos/medicos-civiles",
+    element: <MedicosCiviles />,
   },
 ]);
 
