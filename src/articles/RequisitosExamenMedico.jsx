@@ -53,7 +53,7 @@ export default function RequisitosExamenMedico() {
                   </li>
                   <li className="list-item">
                     <HiCheck className="article-list-icon" />
-                    <span>Pneumonía (> 65 años de edad)</span>
+                    <span>Pneumonía (a partir de 65 años de edad)</span>
                   </li>
                   <li className="list-item">
                     <HiCheck className="article-list-icon" />

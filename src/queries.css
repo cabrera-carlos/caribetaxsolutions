@@ -330,4 +330,16 @@
   .cta-text-box {
     padding-top: 1.2rem;
   }
+
+  .articles-text {
+    font-size: 2.2rem;
+  }
+
+  .articles-subheading-v2 {
+    font-size: 2.2rem;
+  }
+
+  .articles-text-v2 {
+    font-size: 1.8rem;
+  }
 }
