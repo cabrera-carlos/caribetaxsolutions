@@ -7,6 +7,33 @@ import {
 import PageNavigation from "../components/PageNavigation";
 import Footer from "../components/Footer";
 
+function getOS() {
+  let os = "unknown";
+  const userAgent = window.navigator.userAgent;
+  const platform =
+    window.navigator?.userAgentData?.platform || window.navigator.platform;
+
+  const macosPlatforms = ["Macintosh", "MacIntel", "MacPPC", "Mac68K", "macOS"];
+  const windowsPlatforms = ["Win32", "Win64", "Windows", "WinCE"];
+  const iosPlatforms = ["iPhone", "iPad", "iPod"];
+
+  if (macosPlatforms.indexOf(platform) !== -1) {
+    os = "Mac OS";
+  } else if (iosPlatforms.indexOf(platform) !== -1) {
+    os = "iOS";
+  } else if (windowsPlatforms.indexOf(platform) !== -1) {
+    os = "Windows";
+  } else if (/Android/.test(userAgent)) {
+    os = "Android";
+  } else if (/Linux/.test(platform)) {
+    os = "Linux";
+  }
+
+  return os;
+}
+
+console.log(getOS());
+
 export default function MedicosCiviles() {
   return (
     <div id="grid-container">
@@ -29,12 +56,29 @@ export default function MedicosCiviles() {
           <p className="articles-address">
             <strong>Center for International Health</strong>
             <br />
-            725 E Adams Street Suite 4a Upstate <br />
-            Nappi Wellness Institute <br />
-            Syracuse, NY 13202 <br />
-            United States <br />
+            <a href="http://maps.apple.com/?address=1,725+E+Adams+Street,Syracuse,New+York">
+              725 E Adams Street Suite 4a Upstate <br />
+              Nappi Wellness Institute <br />
+              Syracuse, NY 13202 (IOS)
+            </a>
+            <br />
+            <br />
+            <br />
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=725+E+Adams+Street,Syracuse,New+York"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              725 E Adams Street Suite 4a Upstate <br />
+              Nappi Wellness Institute <br />
+              Syracuse, NY 13202 (ANDROID)
+            </a>
+            {/* geo:0,0?q=725+E+Adams+Street,Syracuse,New+York */}
+            <br />
             Dr. Andrea Shaw <br />
-            844-964-1200 <br />
+            <a className="article-link" href="tel:+1 (844) 964-1200">
+              (844) 964-1200
+            </a>
           </p>
           <p className="articles-address">
             <strong>Robert K. Chruscicki, MD</strong>
@@ -43,7 +87,9 @@ export default function MedicosCiviles() {
             Utica, NY 13502 <br />
             United States <br />
             Dr. Robert Chruscicki <br />
-            315-724-7744 <br />
+            <a className="article-link" href="tel:+1 (315) 724-7744">
+              (315) 724-7744
+            </a>
           </p>
           <p className="articles-address">
             <strong>Dr. Michael S Niziol</strong>
@@ -51,7 +97,9 @@ export default function MedicosCiviles() {
             83 Lewis Street <br />
             Dryden, NY 13053 <br />
             United States <br />
-            607-844-8201 <br />
+            <a className="article-link" href="tel:+1 (607) 844-8201">
+              (607) 844-8201
+            </a>
           </p>
           <p className="articles-address">
             <strong>Slocum Dickson Medical Group</strong>
@@ -61,7 +109,10 @@ export default function MedicosCiviles() {
             <br />
             United States <br />
             Dr. Mohsin Syed <br />
-            315.435.3236 <br />
+            <a className="article-link" href="tel:+1 (315) 435-3236">
+              (315) 435-3236
+            </a>
+            <br />
             Notas: Lenguajes adicionales: Español, Urdu
           </p>
           <p className="articles-address">
@@ -73,8 +124,9 @@ export default function MedicosCiviles() {
             United States <br />
             Dr. Justine Magurno
             <br />
-            800-245-4245
-            <br />
+            <a className="article-link" href="tel:+1 (800) 245-4245">
+              (800) 245-4245
+            </a>
           </p>
 
           <p className="articles-text">

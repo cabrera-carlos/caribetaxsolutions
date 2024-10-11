@@ -846,3 +846,8 @@ html {
 .articles-qrcode {
   height: 20rem;
 }
+
+.article-link {
+  font-size: 1.6rem;
+  color: var(--color-tint--1);
+}
