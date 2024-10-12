@@ -6,8 +6,11 @@ import {
 } from "react-icons/hi";
 import PageNavigation from "../components/PageNavigation";
 import Footer from "../components/Footer";
+import { getOS } from "../../utils/Misc";
 
 export default function RequisitosExamenMedico() {
+  const isApple = getOS() === "Mac OS" || getOS() === "iOS";
+
   return (
     <div id="grid-container">
       <PageNavigation lightBg={true} />
@@ -82,10 +85,25 @@ export default function RequisitosExamenMedico() {
           <p className="articles-address">
             <strong>Drakos Urgent Care</strong>
             <br />
-            5586 Legionnaire Dr <br />
-            Cicero, NY 13039 <br />
-            United States <br />
-            urgentcare.drakosdynamics.com <br />
+            <a
+              href={`${
+                isApple
+                  ? "http://maps.apple.com/?address=1,"
+                  : "https://www.google.com/maps/search/?api=1&query="
+              }5586+Legionnaire+Dr,Cicero,New+York`}
+            >
+              5586 Legionnaire Dr <br />
+              Cicero, NY 13039 <br />
+              United States <br />
+            </a>
+            <a
+              href="https://urgentcare.drakosdynamics.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              urgentcare.drakosdynamics.com
+            </a>{" "}
+            <br />
             Notas: Sacar cita en el sitio web. Llevar record de vacunación
           </p>
           <ol className="articles-list articles-list-level1" start={2}>
@@ -132,13 +150,24 @@ export default function RequisitosExamenMedico() {
           </p>
           <p className="articles-address">
             <strong>
-              Room 80 (Basement level), John H. Mulroy Civic Center
+              John H. Mulroy Civic Center, Room 80 (Basement level)
             </strong>
             <br />
-            421 Montgomery Street <br />
-            Syracuse, NY 13202 <br />
-            United States <br />
-            315.435.3236 <br />
+            <a
+              href={`${
+                isApple
+                  ? "http://maps.apple.com/?address=1,"
+                  : "https://www.google.com/maps/search/?api=1&query="
+              }421+Montgomery+Street,Syracuse,New+York`}
+            >
+              421 Montgomery Street <br />
+              Syracuse, NY 13202 <br />
+              United States <br />
+            </a>
+            <a className="article-link" href="tel:+1 (315) 435-3236">
+              (315) 435-3236
+            </a>
+            <br />
             Notas: Lunes a Viernes de 8:30 am - 3:30 pm
           </p>
         </div>

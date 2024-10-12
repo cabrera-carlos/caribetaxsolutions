@@ -7,9 +7,7 @@ export default function Navigation({ lightBg = false }) {
 
   return (
     <header
-      className={`header-nav header-nav--alt container ${
-        mobileNav ? "open-nav" : ""
-      }`}
+      className={`header-nav header-nav--alt ${mobileNav ? "open-nav" : ""}`}
     >
       <Link
         to={"/"}

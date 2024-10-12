@@ -6,7 +6,7 @@ export default function Navigation({ lightBg = false }) {
   const [mobileNav, setMobileNav] = useState(false);
 
   return (
-    <header className={`header-nav container ${mobileNav ? "open-nav" : ""}`}>
+    <header className={`header-nav ${mobileNav ? "open-nav" : ""}`}>
       <img
         className="logo desktop-logo"
         src="/logo.png"
