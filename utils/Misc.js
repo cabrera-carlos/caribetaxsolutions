@@ -17,3 +17,28 @@ export const validatePhone = (phone) => {
     /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im
   );
 };
+
+export function getOS() {
+  let os = "unknown";
+  const userAgent = window.navigator.userAgent;
+  const platform =
+    window.navigator?.userAgentData?.platform || window.navigator.platform;
+
+  const macosPlatforms = ["Macintosh", "MacIntel", "MacPPC", "Mac68K", "macOS"];
+  const windowsPlatforms = ["Win32", "Win64", "Windows", "WinCE"];
+  const iosPlatforms = ["iPhone", "iPad", "iPod"];
+
+  if (macosPlatforms.indexOf(platform) !== -1) {
+    os = "Mac OS";
+  } else if (iosPlatforms.indexOf(platform) !== -1) {
+    os = "iOS";
+  } else if (windowsPlatforms.indexOf(platform) !== -1) {
+    os = "Windows";
+  } else if (/Android/.test(userAgent)) {
+    os = "Android";
+  } else if (/Linux/.test(platform)) {
+    os = "Linux";
+  }
+
+  return os;
+}

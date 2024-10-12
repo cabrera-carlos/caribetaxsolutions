@@ -9,7 +9,8 @@ export default function Certifications() {
           <p className="certs-heading">Registrado con</p>
         </div>
         <div className="certs-container">
-          <img src="irs-logo.png" alt="IRS Logo" className="cert-logo" />
+          {/* <img src="irs-logo.png" alt="IRS Logo" className="cert-logo" /> */}
+          <img src="logo-irs-efile.png" alt="IRS Logo" className="cert-logo" />
           <img src="natp-logo.png" alt="IRS Logo" className="cert-logo" />
         </div>
       </div>
