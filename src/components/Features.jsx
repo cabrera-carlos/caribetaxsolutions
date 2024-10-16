@@ -18,21 +18,21 @@ export default function Features() {
             Ambiente acogedor y servicio personalizado a sus necesidades.
           </p>
         </div>
-        <div className="feature">
+        <div className="feature mobile-hidden">
           <FaLanguage className="feature-icon" />
           <p className="feature-title">Servicio en Español</p>
           <p className="feature-text">
             Comuníquese con nosotros en Español o Inglés.
           </p>
         </div>
-        <div className="feature">
+        <div className="feature mobile-hidden">
           <FaPiggyBank className="feature-icon" />
           <p className="feature-title">El mejor precio</p>
           <p className="feature-text">
             Ofrecemos precios justos y competitivos.
           </p>
         </div>
-        <div className="feature">
+        <div className="feature mobile-hidden">
           <FaRegThumbsUp className="feature-icon" />
           <p className="feature-title">Calidad garantizada</p>
           <p className="feature-text">

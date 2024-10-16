@@ -267,6 +267,18 @@
   .reviews-container {
     grid-template-columns: 1fr;
   }
+
+  /*---------------------------------------*/
+  /*    FEATURES SECTION     */
+  /*---------------------------------------*/
+  .features-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3.2rem;
+  }
+  .mobile-hidden {
+    display: none;
+  }
 }
 
 /***********************************************************************/
@@ -301,15 +313,6 @@
   /*---------------------------------------*/
   .hero-text {
     font-size: 1.4rem;
-  }
-
-  /*---------------------------------------*/
-  /*    FEATURES SECTION     */
-  /*---------------------------------------*/
-  .features-box {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 3.2rem;
   }
 
   /*---------------------------------------*/
