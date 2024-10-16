@@ -263,6 +263,10 @@
   .how-text {
     margin-bottom: 2.4rem;
   }
+
+  .reviews-container {
+    grid-template-columns: 1fr;
+  }
 }
 
 /***********************************************************************/
