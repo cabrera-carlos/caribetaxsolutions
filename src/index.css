@@ -53,6 +53,9 @@ Large: 1.8
   --color-light--2: #ececec;
   --color-light--3: #fdf2e9;
 
+  --color-yellow--1: #eab308;
+  --color-yellow--2: #facc15;
+
   --color-box-shadow--1: rgba(0, 0, 0, 0.1);
   --color-box-shadow--2: rgba(0, 0, 0, 0.15);
   --color-box-shadow--3: rgba(253, 242, 233, 0.5);
@@ -850,4 +853,72 @@ html {
 .article-link {
   font-size: 1.6rem;
   color: var(--color-tint--1);
+}
+
+/***********************************************************************/
+/*    REVIEWS SECTION   */
+/***********************************************************************/
+.section-reviews {
+  padding: 6rem 0;
+  background-image: linear-gradient(
+      rgba(42, 94, 136, 0.819),
+      rgba(42, 94, 136, 0.819)
+    ),
+    url(bg-reviews.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.reviews-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3.2rem;
+}
+
+blockquote {
+  font-size: 1.6rem;
+  font-style: italic;
+  line-height: 1.6;
+  color: var(--color-light--3);
+  padding: 5%;
+  position: relative;
+}
+
+blockquote cite {
+  display: flex;
+  margin-top: 2rem;
+  font-style: normal;
+  font-size: 90%;
+  align-items: center;
+}
+
+blockquote::before {
+  content: "\201C";
+  font-size: 6rem;
+  font-style: italic;
+  position: absolute;
+  font-family: sans-serif;
+  top: -1rem;
+  left: -1rem;
+}
+
+.review-stars {
+  display: inline-block;
+  margin-right: 0.7rem;
+}
+
+.review-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: var(--color-yellow--1);
+}
+
+.reviews-link-container {
+  padding-top: 6rem;
+  text-align: center;
+}
+
+.reviews-link {
+  font-size: 1.8rem;
+  color: var(--color-shade--1);
 }
