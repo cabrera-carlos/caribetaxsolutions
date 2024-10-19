@@ -263,6 +263,22 @@
   .how-text {
     margin-bottom: 2.4rem;
   }
+
+  .reviews-container {
+    grid-template-columns: 1fr;
+  }
+
+  /*---------------------------------------*/
+  /*    FEATURES SECTION     */
+  /*---------------------------------------*/
+  .features-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3.2rem;
+  }
+  .mobile-hidden {
+    display: none;
+  }
 }
 
 /***********************************************************************/
@@ -296,16 +312,9 @@
   /*    HERO SECTION     */
   /*---------------------------------------*/
   .hero-text {
-    font-size: 1.4rem;
-  }
-
-  /*---------------------------------------*/
-  /*    FEATURES SECTION     */
-  /*---------------------------------------*/
-  .features-box {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 3.2rem;
+    font-size: 1.9rem;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+      1px 1px 0 #000;
   }
 
   /*---------------------------------------*/
@@ -337,9 +346,27 @@
 
   .articles-subheading-v2 {
     font-size: 2.2rem;
+    line-height: 1.2;
   }
 
   .articles-text-v2 {
     font-size: 1.8rem;
+  }
+
+  .articles-address {
+    font-size: 2rem;
+  }
+
+  .articles-list-item-description {
+    font-size: 2rem;
+  }
+
+  .article-list-icon {
+    flex: 0 0 auto; /* Prevents shrinking */
+    color: #3678ad;
+  }
+
+  .grid--checklist {
+    grid-template-columns: 1fr;
   }
 }

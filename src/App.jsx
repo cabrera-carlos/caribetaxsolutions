@@ -6,6 +6,7 @@ import Services from "./components/Services";
 import Features from "./components/Features";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Reviews from "./components/Reviews";
 function App() {
   return (
     <>
@@ -16,6 +17,7 @@ function App() {
         <Services />
         <HowItWorks />
         <Features />
+        <Reviews />
         <Contact />
         <Certifications />
       </main>
