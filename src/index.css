@@ -865,7 +865,7 @@ html {
       rgba(42, 94, 136, 0.819),
       rgba(42, 94, 136, 0.819)
     ),
-    url(bg-reviews.jpg);
+    url(/bg-reviews.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
